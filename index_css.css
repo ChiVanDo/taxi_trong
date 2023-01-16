@@ -1,0 +1,43 @@
+.header_lv1{
+    margin: 10px;
+    background-color: rgb(181, 178, 178);
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+.header_lv1 h2{
+    color: rgb(7, 89, 231);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header_lv1 h4{
+    color: rgb(7, 89, 231);
+    font-family: 'Courier New', Courier, monospace;
+    padding: auto;
+}
+.header_lv1 h3{
+    color: #ffff24;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#floating-phone { 
+    display: none; 
+    position: fixed; 
+    left: 10px; 
+    bottom: 10px; 
+    height: 50px; 
+    width: 50px; 
+    background: #46C11E url(https://callnowbutton.com/phone/callbutton01.png) center / 30px no-repeat; 
+    z-index: 99; color: #FFF; 
+    font-size: 35px; 
+    line-height: 55px; 
+    text-align: center;
+    border-radius: 50%; -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5);
+     -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5); 
+     box-shadow: 0 2px 5px rgba(0,0,0,.5); 
+    }
+@media (max-width: 650px) { 
+    #floating-phone { display: block; } 
+}
+
