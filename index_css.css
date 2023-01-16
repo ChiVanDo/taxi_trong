@@ -29,7 +29,8 @@
     height: 50px; 
     width: 50px; 
     background: #46C11E url(https://callnowbutton.com/phone/callbutton01.png) center / 30px no-repeat; 
-    z-index: 99; color: #FFF; 
+    z-index: 99; 
+    color: #FFF; 
     font-size: 35px; 
     line-height: 55px; 
     text-align: center;
@@ -40,4 +41,31 @@
 @media (max-width: 650px) { 
     #floating-phone { display: block; } 
 }
+
+#dat_xe{ 
+    position: fixed; 
+    left: 80px; 
+    bottom: 10px; 
+    height: 50px; 
+    width: 500px; 
+    color: rgb(0, 0, 0); 
+    font-size: 15px; 
+    line-height: 55px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.dat_xe_lv1{
+    box-shadow: 0 2px 5px rgba(0,0,0,.5); 
+    position: fixed; 
+    left: 70px; 
+    bottom: 20px; 
+    height: 30px;
+    width: 150px; 
+    background-color: #46C11E;
+    padding: 10px;
+}
+
+
+
+
+
 
